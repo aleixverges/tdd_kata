@@ -1,0 +1,25 @@
+{
+    "name": "averges/tdd_kata",
+    "description": "Test driven development kata",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Aleix Vergés",
+            "email": "txetxuda@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Calculator\\": "./"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
